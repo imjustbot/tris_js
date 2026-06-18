@@ -40,7 +40,7 @@ function controllaVittoria(simbolo) {
 
     if (haVinto) {
         setTimeout(() => {
-            alert("Ha vinto: " + simbolo);
+            alert("Ha vinto il giocatore " + simbolo);
             resetGioco();
         }, 100);
         return true;
