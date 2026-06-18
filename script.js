@@ -10,5 +10,5 @@ caselle.forEach(casella => {
 });
 
 function mossaBot() {
-    
+
 }
