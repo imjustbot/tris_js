@@ -10,5 +10,12 @@ caselle.forEach(casella => {
 });
 
 function mossaBot() {
+    const caselleVuote = Array.from(caselle).filter(c => c.textContent === '');
+    if (caselleVuote.length > 0) {
+
+        const mossa = caselleVuote[0];
+        mossa.textContent = 'O';
+
+    }
 
 }
